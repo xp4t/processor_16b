@@ -22,7 +22,7 @@ Commenting about the program the program is further divided as
       - Program Counter
       - Integer Datapath 
         - Register
-          - Decoder 4x16
+          - Decoder 3x8
           - 16b register
         - ALU
   - 256x16 RAM
