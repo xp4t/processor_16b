@@ -1,4 +1,4 @@
-# Implementation of a 16-bit Instruction Size Processor
+# Implementation of a 16-bit Instruction Size RISC -V Processor
 
 This processor has been designed to handle a 16-bit instruction size. 
 
