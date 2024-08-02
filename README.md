@@ -1,8 +1,8 @@
-Implementation of a 19-bit instruction size processor
+# Implementation of a 16-bit Instruction Size Processor
 
-This processor has been designed accordingly to handle 19-bit instruction size.
+This processor has been designed to handle a 16-bit instruction size. 
 
-The processor consists of -
+The processor consists of:
 
 ## 16-bit ALU
 The Arithmetic Logic Unit (ALU) performs arithmetic and logical operations on 16-bit binary numbers. It supports operations such as addition, subtraction, bitwise AND, OR, XOR, and NOT.
@@ -22,21 +22,19 @@ The Control Unit orchestrates the operations of the CPU by generating control si
 ## 16-bit Program Counter
 The Program Counter (PC) holds the address of the next instruction to be fetched and executed. It is 16 bits wide, allowing for addressing up to 65536 memory locations.
 
+## Commenting about the Program
+The program is further divided as follows:
 
-
-Commenting about the program the program is further divided as
-
-- Top Module (16-bit Processor)
-  - 16-bit processor unit
-    - Control unit
-    - Execute unit
-      - Instruction Register
-      - Program Counter
-      - Integer Datapath 
-        - Register
-          - Decoder 3x8
-          - 16b register
-        - ALU
-  - 256x16 RAM
-  - Address Counter
-
+- **Top Module (16-bit Processor)**
+  - **16-bit Processor Unit**
+    - **Control Unit**
+    - **Execute Unit**
+      - **Instruction Register**
+      - **Program Counter**
+      - **Integer Datapath**
+        - **Register**
+          - **Decoder 3x8**
+          - **16-bit Register**
+        - **ALU**
+  - **256x16 RAM**
+  - **Address Counter**
